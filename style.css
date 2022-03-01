@@ -1,0 +1,306 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.header-section{
+    display: flex;
+   justify-content: space-evenly;
+}
+.header-logo img {
+	width: 95px;
+}
+
+.header{
+    display: flex;
+    background: #000;
+    justify-content: space-evenly;
+    
+}
+.header-logo{
+    
+
+}
+.header-manu{
+    
+  
+
+}
+.header-manu ul {
+    display: flex;
+
+}
+.header-manu ul li {
+  
+padding: 10px 10px;
+   
+}
+.header-manu ul li a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0px 10px;
+	display: inline-block;
+  position: relative;
+}
+.header-manu ul li a::before {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: white;
+}
+
+.banner-section{
+    display: flex;
+
+}
+.banner-items-left{
+    width: 80%;
+
+}
+.banner-items-image {
+	margin-top: 40px;
+	background: #d1d1d1;
+	width: 20%;
+	height: 800px;
+	border-left: 2px solid red;
+	padding: 20px;
+}
+.banner-items-image h2 {
+	margin: 17px 0;
+}
+.bannar-upor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-upor-bam{
+    height: 300px;
+    width: 400px;
+    border: 2px solid green;
+   
+}
+.banner-upor-majkhan {
+	height: 300px;
+	width: 400px;
+	border: 2px solid green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner-upor-shes {
+	height: 300px;
+	width: 400px;
+	border: 2px solid green;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+.banner-items-left {
+	width: 80%;
+	margin-top: 94px;
+}
+.banner-bam-lal {
+	height: 100px;
+	width: 100px;
+	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner-bam-lal h2{
+    color: white;
+    text-align: center;
+}
+.banner-majkhan-lal{
+    height: 100px;
+    width: 100px;
+    background: red;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner-majkhan-lal h2{
+    color: white;
+    text-align: center;
+}
+.banner-shes-lal{
+    height: 100px;
+    width: 100px;
+    background: red;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.banner-shes-lal h2{
+    color: white;
+    text-align: center;
+}
+/* second section */
+.banner-majkhan{
+    margin-top:40px ;
+    display: flex;
+	justify-content: space-around;
+}
+.banner-majkhan-bam {
+	
+}
+.banner-majkhan-bam {
+	flex: 1 0 0%;
+	border: 2px solid green;
+	margin: 0px 19px;
+	height: 152px;
+	padding: 24px;
+}
+.sorabo {
+	margin-right: 70px;
+}
+.soramu{
+	
+	margin-left: 69px;
+}
+.bigger-item{
+	flex-grow: 2;
+}
+/* thrird section */
+.banner-nich{
+	display: flex;
+	margin: 30px 0px;
+	justify-content: space-evenly;
+
+
+}
+.banner-nich-bam {
+	height: 300px;
+	width: 400px;
+	border: 2px solid green;
+	display: flex;
+	padding: 0px 24px;
+}
+
+.banner-nich-shes{
+	height: 300px;
+	width: 400px;
+	border: 2px solid green;
+
+}
+.flex-1{
+	
+
+}
+.sanjid {
+	margin-right: 41px;
+}
+
+.falcon{
+	height: 50px;
+	width: 80px;
+	background: red;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 60px 10px;
+	
+
+}
+.shihab {
+	margin-left: 55px;
+}
+.inner-div{
+	color: white;
+}
+
+.banner-nich-majkhane {
+	height: 300px;
+	width: 400px;
+	border: 2px solid green;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	
+	padding: 0px 41px;
+}
+.falcon-1{
+	height: 40px;
+	width: 60px;
+	background: red;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+
+}
+
+/* shes section */
+
+.banner-nich-shes{
+	display: flex;
+
+}
+.flex-button{
+
+}
+.inner-div h2 {
+	font-size: 20px;
+}
+.flex-button-2 {
+
+}
+
+.falcon-2{
+	height: 50px;
+	width: 80px;
+	background: red;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.footer{
+	background: black;
+
+
+}
+.footer ul {
+	display: flex;
+	justify-content: center;
+}
+.footer ul li {
+	padding: 35px 20px;
+}
+.footer ul li a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	padding: 0px 6px;
+}
+.footer ul li a::before {
+	content: "";
+	position: absolute;
+	bottom: -11px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: white;
+	padding: ;
+}
